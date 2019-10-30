@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+#F1 {color:blue}
+.F2 {background-color:seagreen}
+.F3 {color:silver;background-color:blueviolet}
+.F4 {color:crimson;background-color: cyan}
+.F5 {background-color: deeppink}
+.F6 {background-color: black;color:blanchedalmond}
+
+</style>
+
+<h2 id="F1">FORMULARIO</h2>
+<form method="GET">
+<fieldset>
+    NOMBRE:<br>
+    <input type="text" name="nombre" class="F2">
+    <br>
+    PRIMER APELLIDO:<br>
+    <input type="text" name="primer apellido" class="F2">
+    <br>
+    SEGUNDO APELLIDO:<br>
+    <input type="text" name="segundo apellido" class="F2">
+    <br>
+    FECHA DE NACIMIENTO<br>
+    <input type="date" class="F3">
+    <br>
+    EDAD<br>
+    <input type="number" class="F4">
+    <br>
+    AFICIONES<br>
+    <select name="aficiones" size="4" multiple class="F5">
+        <option value="futbol">FUTBOL</option>
+        <option value="basket">BASKET</option>
+        <option value="ajegrez">AJEDREZ</option>
+        <option value="dormir">DORMIR</option>
+    </select>
+    COMENTARIOS<br>
+    <textarea name="COMENTARIOS" rows="10" cols="30" class="F6">
+        </textarea><br>
+    QUIERES RECIBIR INFORMACIÓN<br>
+    <input type="radio" name="VALOR" value="SÍ"> SÍ<br>
+    <input type="radio" name="VALOR" value="NO"> NO<br>
+    ACEPTO CONDICIONES
+    <input type="checkbox"><br>
+    <input type="reset">
+
+    <input type="submit">
+</fieldset>
+</form>
+
+
+</body>
+</html>
